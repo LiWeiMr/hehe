@@ -1,0 +1,19 @@
+[INFO  - 2017-07-12T05:58:20.796Z] GhostDriver - Main - running on port 49251
+[INFO  - 2017-07-12T05:58:21.851Z] Session [1c5cac50-66c7-11e7-8e66-9f5d7cff2ea3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-12T05:58:21.851Z] Session [1c5cac50-66c7-11e7-8e66-9f5d7cff2ea3] - page.customHeaders:  - {}
+[INFO  - 2017-07-12T05:58:21.851Z] Session [1c5cac50-66c7-11e7-8e66-9f5d7cff2ea3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-12T05:58:21.851Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1c5cac50-66c7-11e7-8e66-9f5d7cff2ea3
+[ERROR - 2017-07-12T05:58:30.715Z] Session [1c5cac50-66c7-11e7-8e66-9f5d7cff2ea3] - page.onError - msg: Baitiao service error with timeout.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-07-12T05:58:30.716Z] Session [1c5cac50-66c7-11e7-8e66-9f5d7cff2ea3] - page.onError - stack:
+  error (http://static.360buyimg.com/item/default/1.0.32/components/??common/common.js,address/address.js,prom/prom.js,colorsize/colorsize.js,buytype/buytype.js,baitiao/baitiao.js,summary/summary.js,o2o/o2o.js,buybtn/buybtn.js,track/track.js,suits/suits.js,crumb/crumb.js,fittings/fittings.js,detail/detail.js,contact/contact.js,popbox/popbox.js,preview/preview.js,info/info.js,imcenter/imcenter.js,jdservice/jdservice.js,commitments/commitments.js,gift/gift.js,popupCar/popupCar.js,lazyinit/lazyinit.js:18)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-07-12T05:58:50.317Z] Session [1c5cac50-66c7-11e7-8e66-9f5d7cff2ea3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'fetchJSON_comment98vv29548')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-07-12T05:58:50.318Z] Session [1c5cac50-66c7-11e7-8e66-9f5d7cff2ea3] - page.onError - stack:
+  global code (http://club.jd.com/comment/productPageComments.action?callback=fetchJSON_comment98vv29548&productId=1566538462&score=0&sortType=5&page=0&pageSize=10&isShadowSku=0&fold=1:1)
+
+  phantomjs://platform/console++.js:263 in error
